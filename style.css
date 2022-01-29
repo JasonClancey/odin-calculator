@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculatorBody {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 500px;
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    background-color: lightgray;
+
+}
+
+.display {
+    background: lightgreen;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+    margin: 5px;
+    text-align: right;
+}
+
+.clear {
+    margin: 5px;
+}
+
+.calculatorInputContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    height: 25%;
+
+}
+
+.number,
+.operator,
+.decimal,
+.equals {
+    width: 24%;
+    height: 100%;
+}
+
+.operator {
+    background: #acacac
+}
