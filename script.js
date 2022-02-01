@@ -1,4 +1,4 @@
-let display
+let displayValue
 
 function add(num1, num2) {
     return num1 + num2;
@@ -35,3 +35,4 @@ function operate(operator, num1, num2) {
     }
     return display
 }
+
