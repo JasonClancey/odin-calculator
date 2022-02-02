@@ -20,11 +20,12 @@ body {
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    padding: 10px;
     margin-top: 5px;
     margin-left: 13px;
     margin-right: 13px;
     text-align: right;
+    font-size: 35px;
+    height: 45px;
 }
 
 
@@ -43,13 +44,21 @@ body {
 }
 
 .number,
-.operator {
+.operator,
+.decimal,
+.clear,
+.posNeg,
+.percent,
+.equals {
     width: 24%;
     height: 100%;
 }
 
 .operator,
-.equals {
+.equals,
+.clear,
+.posNeg,
+.percent {
     background: #acacac
 }
 
