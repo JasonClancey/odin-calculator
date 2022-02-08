@@ -11,8 +11,6 @@ const addDecimal = document.querySelector('.decimal');
 const takePercent = document.querySelector('.percent');
 const choosePositiveNegative = document.querySelector('.posNeg');
 
-// Refresh display and fix to 2 decimal places, does not show trailing 0's
-
 function refreshDisplay() {
     x = parseFloat(display);
     displayValue.textContent = `${display}`
