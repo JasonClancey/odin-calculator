@@ -27,6 +27,11 @@ body {
     font-size: 35px;
     height: 45px;
     padding: 3px;
+    max-width: 345px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
 }
 
 
